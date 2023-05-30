@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Vue lucky controller{% endblock %}
+
+{% block body %}
+
+<div {{ vue_component('Lucky', { 'number': number }) }}></div>
+{% endblock %}
