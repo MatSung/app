@@ -20,5 +20,5 @@ interface ExchangeRateProviderInterface
      * @param  mixed $amount Amount to convert
      * @return float result of exchange.
      */
-    public function convert(string $from, string $into, float $amount): float;
+    public function convert(string $from, string $to, float $amount): float;
 }
